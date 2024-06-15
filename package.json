@@ -1,0 +1,25 @@
+{
+    "name": "mern-api",
+    "version": "1.0.0",
+    "description": "Simple mern api",
+    "main": "server.js",
+    "scripts": {
+        "start": "node backend/server.js",
+        "serve": "nodemon backend/server.js"
+    },
+    "keywords": [
+        "MERN",
+        "API"
+    ],
+    "author": "Harsh Shah",
+    "license": "MIT",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "mongoose": "^8.4.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.3"
+    }
+}
